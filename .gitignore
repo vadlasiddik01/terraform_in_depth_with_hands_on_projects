@@ -1,0 +1,28 @@
+# Terraform local state and working directories
+**/.terraform/
+**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform override and variable files
+*.tfvars
+*.tfvars.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# SSH and key files
+*.pem
+*.key
+*.pub
+*.ppk
+id_rsa*
+
+# Editor and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
