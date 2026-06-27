@@ -16,6 +16,7 @@ terraform.rc
 
 # SSH and key files
 *.pem
+terra-tws-proj-ec2
 *.key
 *.pub
 *.ppk
